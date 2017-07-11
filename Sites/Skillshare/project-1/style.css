@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+	background-color: #ffffff;
+}
+body {
+	background-color: #F6F6F6;
+	margin: 0 auto;
+	width: 1000px;
+	font-family: arial,"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+a {
+	text-decoration: none;
+	color:#686868;
+}
+
+/* HEADER */
+header {
+	width: 960px;
+	height: 150px;
+	padding: 20px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+	font-size: 16px;
+}
+
+header li:first-child {
+	border-right: 1px solid #686868;
+}
+
+.left {
+	width: 320px;
+	float: left;
+}
+
+.left ul {
+	padding-left: 30px;
+	padding-top: 90px;
+	
+}
+
+.right {
+	width: 320px;
+	float: right;	
+}
+
+.right ul {
+	float: right;
+	padding-right: 30px;
+	padding-top: 90px;
+}
+
+#logo {
+	width: 320px;
+	float: left;
+	text-align: center;
+	color: #C82023;
+	font-size: 34px;
+}
+
+#logo p {
+	margin: 0;
+}
