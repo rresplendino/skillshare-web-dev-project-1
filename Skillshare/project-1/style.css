@@ -139,7 +139,7 @@ form {
 .box img{
 	position: relative;
 	z-index: 1;
-	margin-left: 15px;
+	margin-left: 25px;
 }
 
 .box p {
@@ -149,9 +149,12 @@ form {
 	z-index: 2;
 	text-align: center;
 	font-size: 24px;
+    margin-left: 25px;
 }
 
-
+.middle p {
+    color: white;
+}
 
 
 
